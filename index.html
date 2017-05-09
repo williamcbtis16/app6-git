@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta aplicación movil</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app6.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/img2.png','imagenes/IMG_20170404_122150906.jpg','imagenes/IMG_20170404_122123110.jpg','imagenes/IMG_20170404_122109676.jpg','imagenes/IMG_20170404_122051640.jpg','imagenes/IMG_20170404_122026765.jpg','imagenes/batallac2.jpg','imagenes/batallac4.png','../app3/imagenes/batallac6.jpg','../app3/imagenes/batalla6.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1> Batalla de Puebla </h1>
+  </div>
+  
+      <div data-role="main" class="ui-content">
+     <div>
+     </div></div>
+      <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+      <li class="ui-first-child ui-last-child">
+         <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         
+           <h2> Batalla del 4 de Mayo </h2>
+           <p>  </p>
+        </a>
+        </li>
+          <li class="ui-first-child ui-last-child">
+             <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Batalla del 5 de Mayo </h2>
+                 <p></p>
+            </a>
+        </li>                 <li class="ui-first-child ui-last-child">
+
+              <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                      <h2> Celebración en Otros Países </h2>
+                      <p></p>
+          </a>
+        </li>
+                   <li class="ui-first-child ui-last-child">
+                     <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                        <h2> Consecuencias de la Batalla</h2>
+                        <p></p>
+                     </a>
+                   </li>
+                  <li class="ui-first-child ui-last-child">
+                     <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                         <h2> Héroes de la Batalla</h2>
+                          <p></p>
+                     </a>
+        </li>
+         
+       
+      
+			
+  </ul>
+       
+       
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/batalla1.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/batalla_5.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla2.jpg" alt="" title="" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla3.jpg" alt="" title="" id="wows1_3"/></li>
+		<li><img src="data1/images/batalla4.jpg" alt="" title="" id="wows1_4"/></li>
+		<li><img src="data1/images/batalla6.jpg" alt="" title="" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/batalla7.jpg" alt="http://wowslider.com/" title="" id="wows1_6"/></a></li>
+		<li><img src="data1/images/batalla8.jpg" alt="" title="" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla1.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla_5.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla2.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla3.jpg" alt=""/>4</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla4.jpg" alt=""/>5</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla6.jpg" alt=""/>6</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla7.jpg" alt=""/>7</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/batalla8.jpg" alt=""/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">http://wowslider.net/</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+ <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+                     <div>
+                     
+                        <img src="imagenes/carl.png" width="46" height="46">
+                     </div>
+                        <div>
+                          <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+                     
+                     </div>
+  </div><!--footer-->
+</div> <!--page principal-->
+  </div>
+  </div><!--main-->
+  
+  
+                  
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+                          <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                          <h1> Batalla del 4 de Mayo (Batalla de Atlixco)</h1>
+                          </div>
+                          <div data-role="main" class="ui-content" align="center">
+                          <div>
+                            <h2 class="a1"> <span class="a2">La Batalla de Atlixco tuvo lugar el 4 de mayo de 1862 en las inmediaciones de la Hacienda de las Traperas en Atlixco en el estado de Puebla, México, entre elementos del ejército mexicano de la república, al mando de los generales Antonio Carvajal y Tomás O'Horan contra las tropas al servicio del Segundo Imperio Mexicano comandadas por el general José María Cobos y de Leonardo Márquez, compuesta de soldados conservadores mexicanos en apoyo de envío de refuerzos para llevar a cabo la Batalla de Puebla, durante la Segunda Intervención Francesa en México.
+
+Esta batalla culminó con una victoria republicana y debido a esto el grupo conservador de Márquez no pudo lograr su objetivo de auxiliar a las tropas francesas del Conde de Lorencez en la batalla de Puebla. </span></h2>
+                            <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','imagenes/batallac2.jpg',1)"><img src="imagenes/batallac1.jpg" width="555" height="435" id="Image18"></a> </div>
+                          </div>
+                          <Center>
+                          </Center>
+                            <div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+        <a href="http://www.sabersinfin.com/articulos/historia/6710-4-de-mayo-de-1862"> Página para saber más de la historia </a>
+        <p></p>
+ 
+          <h1> Conoce más de la historia </h1>                    </div>
+      </div>
+     
+<div data-role="footer" data-theme="a" data-position="fixed">
+    <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+  </div>
+</div>
+                        
+                          
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+                            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                            <h1> Batalla del 5 de Mayo (Batalla de Puebla)</h1>
+                            </div>
+                            <div data-role="content" align="center">
+                            <div>
+                               <h2> La batalla de Puebla fue un combate librado el 5 de mayo de 1862 en las cercanías de la ciudad de Puebla, entre los ejércitos de la República Mexicana, bajo el mando de Ignacio Zaragoza, y del Segundo Imperio Francés, dirigido por Charles Ferdinand Latrille, conde de Lorencez, durante la Segunda Intervención Francesa en México, cuyo resultado fue una victoria importante para los mexicanos ya que con unas fuerzas consideradas como inferiores lograron vencer a uno de los ejércitos más experimentados y respetados de su época. Pese a su éxito, la batalla no impidió la invasión del país, aunque sí que sería la primera batalla de una guerra que finalmente México ganaría. Los franceses regresarían al siguiente año, con lo que se libró una segunda batalla en Puebla en la que se enfrentaron 35 000 franceses contra 29 000 mexicanos (defensa que duró 62 días) y lograrían avanzar hasta la Ciudad de México, lo que permitió establecer el Segundo Imperio Mexicano. Finalmente, ante la incapacidad de consolidar un imperio y después de perder 11 000 hombres debido a la actividad guerrillera que nunca dejó de subsistir, los franceses se retiraron incondicionalmente del país en el año 1867. </h2></div>
+  </div>
+                           
+<Center>
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','imagenes/batallac4.png',1)"><img src="imagenes/batallac3.jpg" name="Image19" width="532" height="429" id="Image19"></a>
+</Center>
+                              <div data-role="main" class="ui-content">
+                          <div data-role="collapsible" data-content-theme="false">
+        <a href="https://webadictos.com/2017/05/04/historia-de-la-batalla-de-puebla-5-mayo/"> Página para saber más de la Historia </a>
+        <p></p>
+        
+          <h1> Conoce más de la Historia </h1>
+          <p></p>
+                          </div>
+      </div>
+ 
+<div data-role="footer" data-theme="a" data-position="fixed">
+     <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+  </div>
+</div>
+                            
+                            
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+                            <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                               <h1> Celebración en otros países del 4 y 5 de Mayo </h1>
+    </div>
+                            <div data-role="content" align="center">
+                            <div>
+                               <h2> En México, el aniversario de la Batalla de Puebla tiene un significado importante; sin embargo, el cinco de mayo es celebrado por los mexicanos en los Estados Unidos como el Día del Orgullo Mexicano, adquiriendo una relevancia distinta del significado histórico de la fecha.
+
+Las explicaciones de por qué la fecha tiene tanta popularidad en los Estados Unidos de América son muchas. Van desde la interpretación de algunos historiadores que ven en la victoria mexicana del cinco de mayo un factor que ayudó al triunfo de las fuerzas federales contra los estados esclavistas del sur en la guerra civil estadounidense, hasta la idea de que la derrota pospuso la ocupación francesa de México y evitó que Napoleón III pudiera ayudar a las tropas de la Confederación en un período clave de la Guerra Civil. Esto afirmaría que el impacto de la victoria mexicana en Puebla en 1862 y luego el sitio en esa ciudad en 1863 hicieran eco en la batalla de Gettysburg en julio de 1863, donde la victoria de las fuerzas federales definió el fin para la Confederación.
+
+
+Artesanía mexicana simulando papel picado
+En muchas ciudades de Estados Unidos se realizan diversos festivales en donde se reúnen integrantes de los consulados, mariachis, bandas mexicanas, restaurantes, artesanos y la población inmigrante que ahí habita. Uno de los festejos más grandes es el que se realiza en la Placita Olvera en la ciudad de Los Ángeles, California. Justo en esta ciudad la Unión de Poblanos en el Exterior organiza un festival con ceremonias cívicas y culturales. El viernes 3 de mayo de 2013 en el festejo de la Placita Olvera se reconoció al Dr. David Hayes Bautista, profesor de UCLA, por la publicación de su libro ‘Cinco de Mayo: An American Tradition’ y por su labor de investigación sobre el contexto histórico del Cinco de Mayo. De acuerdo con la tesis de Hayes, el Cinco de Mayo es una fiesta creada por los latinos en California, a mediados del siglo XIX, con un significado que ha cambiado con el tiempo y que pasó de una fecha nostálgica en 1930 a una expresión de patriotismo en los cuarenta, y que abrió la pauta al nacimiento del chicano power en los sesenta.
+
+
+
+En otras ciudades de Estados Unidos—como Chicago, Phoenix y Washington—también se reúne la comunidad mexicana como símbolo de unidad e identidad. El impacto que esta celebración tiene en la comunidad mexicana-estadounidense, según David Hayes, tiene que ver con que la Guerra Civil y la Intervención Francesa fueron luchas paralelas en las que estaban en juego los ideales democráticos y antirracistas. Durante 1860, en plena Guerra Civil estadounidense, mexicanos distribuidos en más de cien localidades californianas crearon juntas patrióticas que celebraban el Cinco de Mayo y trataban de apoyar a mexicanos y a las fuerzas anti-esclavistas. Concluidos estos conflictos, los veteranos de ambas guerras en el noreste de México y en California hacían festejos cívicos para recordar el por qué de sus luchas. Con el paso del tiempo, el Cinco de Mayo se convirtió en un día de orgullo étnico, de fiesta cívica, de expresión comunitaria y de celebración en Estados Unidos.</h2></div>
+  </div>
+  
+                               <Center>
+                                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','../app3/imagenes/batallac6.jpg',1)"><img src="../app3/imagenes/batallac5.jpg" width="640" height="426" id="Image20"></a>
+                  </Center>
+<div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+        <a href="http://www.unionpuebla.mx/articulo/2017/05/04/cultura/batalla-de-puebla-que-se-celebra-el-5-de-mayo" target="new"> Página para saber mas de las celebraciones </a>
+        <p></p>
+        
+          <h1> Conoce más de las celebraciones </h1>
+          <p>&nbsp;</p>
+                          </div>
+      </div>
+   
+      
+      
+      
+                                <div data-role="footer" data-theme="a" data-position="fixed">
+                                  <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+                                </div>
+</div>
+                             
+                              
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                                <h1> Consecuencias de la Batalla </h1>
+  </div>
+                            <div data-role="content" align="center">
+                            <div>
+                               <h2>
+Mientras se libraba la batalla, en el Palacio Nacional y en la Ciudad de México en general se vivía un ambiente de tensa espera. Lo último que se sabía de Puebla era el telegrama enviado por Zaragoza hacia las 12:30 del día, en el que avisaba que el fuego de artillería de ambos lados había iniciado. Luego, silencio. Ante la incertidumbre, el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos y algunos centenares de milicianos pobremente armados. Si las tropas guanajuatenses se perdían, la capital quedaría desprotegida.
+El saldo final de la batalla fue de 476 muertos y 345 heridos del lado francés, así como 83 muertos, cerca de 131 heridos y 12 desaparecidos para el Ejército de Oriente. A las 7 de la noche del día 6 de mayo arribaron a Puebla el general Antillón y sus tropas; Zaragoza esperaba un nuevo ataque de Lorencez, pero éste, el día 8 de mayo, dispuso la retirada hasta San Agustín del Palmar, siendo "saludado" por la artillería republicana y la Banda de Guerra de los Carabineros, quienes tocaron "Escape".
+
+El 5 de septiembre de 1862, todavía acuartelado en Puebla, el general Zaragoza contrajo tifo y falleció tres días después.11 Lo sustituyó en el mando del Ejército de Oriente el general Jesús González Ortega, quien se encargaría de la defensa de la ciudad ya que se esperaba el regreso de los franceses, reagrupados y con refuerzos, lo cual sucedió en marzo del siguiente año. Los historiadores concuerdan en señalar el talento de Zaragoza como organizador y motivador de sus tropas. Antes de la batalla, las arengó diciéndoles que si bien los franceses eran considerados "los primeros soldados del mundo", ellos eran "los primeros hijos de México", lo cual tuvo tal efecto en la moral de sus soldados que su determinación por defender la plaza ante los invasores compensó sus carencias materiales y de disciplina. Además, no temió tomar decisiones arriesgadas, como prescindir de los 2000 efectivos que O'Horan se llevó para batir a Leonardo Márquez, y en el curso de la batalla actuó con serenidad y efectividad. Se le considera héroe nacional y en su honor, tiempo después, Juárez renombró a la ciudad como Heroica Puebla de Zaragoza. </h2></div>
+  </div>
+  
+                               <Center>
+                                 <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','../app3/imagenes/batalla6.jpg',1)"><img src="../app3/imagenes/batallac7.jpg" width="480" height="307" id="Image21"></a>
+                  </Center>
+<div data-role="main" class="ui-content">
+          <div data-role="collapsible" data-content-theme="false">
+        <a href="http://www.paxala.com/la-batalla-de-puebla/"> Página para saber más de las consecuencias que dejo la batalla </a>
+        <p></p>
+        
+          <h1> Conoce mas de las consecuencias </h1>
+          <p>&nbsp;</p>
+          
+                          </div>
+      </div>         
+             
+  <div data-role="footer" data-theme="a" data-position="fixed">
+                                   <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+  </div>
+</div>
+</div>
+</div>
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="d">
+                                <h1> Héroes de la Batalla </h1>
+  </div>
+                            <div data-role="content" align="center">
+                            <div>
+                            <h2> El 5 de mayo de 1862, cuando tuvo lugar la famosa Batalla de Puebla, entre el ejercito mejicano y los soldados del Segundo Imperio Francés. Esta pequeña guerra de ‘David y Goliath’ tuvo, por supuesto, multitud de protagonistas con nombre propio, verdaderos héroes entre el pueblo mexicano. </h2>
+                <div data-role="main" class="ui-content" align="center">
+  <div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="a">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.unionpuebla.mx/articulo/2017/04/28/cultura/porfirio-diaz-el-heroe-poco-conocido-de-la-batalla-de-puebla" data-role="button" id="beep">
+    <h2> Porfirio Díaz </h2>
+    </a>
+    </li>
+    <img src="../app3/imagenes/porfirio.jpg" width="479" height="294">
+<li class="ui-first-child ui-last-child">
+  <a href="https://www.inside-mexico.com/gen-ignacio-zaragoza-2/" data-role="button" id="vibrar">
+    <h2> Ignacio Zaragoza </h2>
+    </a>
+</li>
+<img src="../app3/imagenes/ignacio.jpg" width="385" height="350">
+<li class="ui-first-child ui-last-child">
+    <a href="http://www.univision.com/noticias/cinco-de-mayo/benito-juarez-figura-clave-en-la-batalla-de-puebla" data-role="button" id="beep">
+    <h2> Benito Juárez </h2>
+    </a>
+    </li>
+    <img src="../app3/imagenes/beni.jpg" width="319" height="307">
+    <li class="ui-first-child ui-last-child">
+    <a href="http://www.saberia.com/quienes-lucharon-en-la-batalla-del-5-de-mayo/" data-role="button" id="beep">
+    <h2> Los que lucharon en la Batalla </h2>
+    </a>
+    </li>
+    <img src="../app3/imagenes/batalla de puebla.jpg" width="404" height="238">
+  </ul>
+      </div>
+      </div>
+                                      
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+ 
+                                   <h4> APP6 </h4>
+                          <h4> William Paul Corona Cano </h4>
+                                </div>
+       </div>
+
+
+                                                                                                                                                                                                         
+</body>
+</html>
